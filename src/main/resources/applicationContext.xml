@@ -54,10 +54,7 @@
     </bean>
 
 
-    <!--aciton是多例的-->
-    <bean id="userAction" class="info.dabu.web.action.UserAction" scope="prototype">
-        <property name="userService" ref="userService" />
-    </bean>
+
 
     <!--spring事务管理-->
 
