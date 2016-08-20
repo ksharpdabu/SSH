@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+
+
+  <class name="info.dabu.domain.User" table="t_user">
+      <id name="id" column="id" >
+        <generator class="native" />
+      </id>
+      <property name="username" column="username" type="string" />
+
+        <property name="password" column="password" type="string"/>
+
+      <property name="age" column="age" type="java.lang.Integer"/>
+  </class>
+
+</hibernate-mapping>
