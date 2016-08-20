@@ -55,7 +55,6 @@
 
 
 
-
     <!--spring事务管理-->
 
     <bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
